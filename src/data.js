@@ -17,7 +17,7 @@ export const recintos = [
   { numero: 2, bioma: 'floresta', tamanho: 5, animais: [] },
   {
     numero: 3,
-    bioma: 'savana e rio',
+    bioma: ["savana", "rio"],
     tamanho: 7,
     animais: [{ especie: 'GAZELA', quantidade: 1 }],
   },
